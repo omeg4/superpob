@@ -1,3 +1,15 @@
 modify pob to have new ui elements
 read client.txt and auto-import stash tabs, items, etc. by checking for self whisper commands
 make pob more comparison friendly (comparing gear, skills, etc.)
+
+pull stash data and analyze each weapon, use ML to come up with description of item based on stats 'pretty solid rare chest, good resist', etc. or 'bad rolls good mods', w/e. make custom ones for diff builds or something '[perfect, very good, craft worthy, etc]'.
+
+template could be '[overall rating] [slot] with [highest tier roll] and [second highest tier roll]'
+
+get json data from public stash api
+
+analyze each item and make an analysis
+
+could be a python class. like item.stats, item.tiers, item.summary
+
+'neato' dataviz layout showing weighted contributions of diff modifiers to 'real' dps or whatever
