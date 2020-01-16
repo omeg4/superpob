@@ -1,0 +1,3 @@
+modify pob to have new ui elements
+read client.txt and auto-import stash tabs, items, etc. by checking for self whisper commands
+make pob more comparison friendly (comparing gear, skills, etc.)
